@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.0.0",
+    "@vladmandic/face-api": "^1.7.5",
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "canvas": "^2.10.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "faceapi.js_backend_standalone",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "static/*"
+    ]
+  },
+  "keywords": [],
+  "author": "ruriko123",
+  "license": "ISC",
+  "description": "A express server that uses faceapi.js and takes image base64 as input and gives the processed image as base64 ",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruriko123/Faceapi.js-backend-standalone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruriko123/Faceapi.js-backend-standalone/issues"
+  },
+  "homepage": "https://github.com/ruriko123/Faceapi.js-backend-standalone#readme"
+}
